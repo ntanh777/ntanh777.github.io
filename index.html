@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- SEO Meta Tags -->
+  <title>Nguyễn Tuấn Anh - Mobile App & Game Developer | Portfolio</title>
+  <meta name="description"
+    content="Portfolio giới thiệu các ứng dụng và trò chơi di động chất lượng cao được phát triển bởi Nguyễn Tuấn Anh. Cung cấp đầy đủ thông tin hỗ trợ và chính sách bảo mật phục vụ kiểm duyệt của Google AdMob và các kho ứng dụng.">
+  <meta name="author" content="Nguyễn Tuấn Anh">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nguyễn Tuấn Anh - Mobile App & Game Developer">
+  <meta property="og:description"
+    content="Portfolio giới thiệu các ứng dụng và trò chơi di động chất lượng cao. Cung cấp đầy đủ thông tin hỗ trợ và chính sách bảo mật phục vụ kiểm duyệt.">
+  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:url" content="https://ntanh.github.io/website_github">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+  <!-- Cấu hình CSS chính -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Nạp cấu hình tập trung trước để js/main.js có thể đọc được -->
+  <script src="js/config.js"></script>
+  <!-- Nạp logic điều hướng chính -->
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container header-container">
+      <a href="#" class="brand" id="brand-link">
+        <span id="header-dev-name">Developer</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#" class="nav-link active">Homepage</a>
+        <a href="#apps" class="nav-link">Apps & Games</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Nút chuyển đổi giao diện Sáng/Tối -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Chuyển chế độ sáng tối">
+          <!-- Biểu tượng nạp động -->
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- DIỆN MẠO TRANG CHỦ CHÍNH (MAIN CONTENT) -->
+  <main id="main-content">
+
+    <!-- 1. HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="section-tag">Welcome to my space</span>
+          <h1 id="hero-title">Hello, I am <br><span>Developer</span></h1>
+          <div class="hero-subtitle" id="hero-subtitle">Mobile App Developer</div>
+          <div class="hero-description" id="hero-about-desc">
+            <!-- Nội dung nạp động từ config.js -->
+          </div>
+          <div class="hero-buttons">
+            <a href="#apps" class="btn btn-primary">
+              Explore the product
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Contact support</a>
+          </div>
+        </div>
+
+        <div class="hero-image-container">
+          <div class="hero-logo-box" id="hero-logo-box">
+            <!-- Logo nạp động từ config.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. APPS & GAMES SECTION -->
+    <section class="apps-section" id="apps" style="padding: 5rem 0;">
+      <div class="container">
+
+        <div class="section-title-wrapper">
+          <span class="section-tag">My Creations</span>
+          <h2 class="section-title">Apps & Games</h2>
+        </div>
+
+        <!-- Bộ Lọc Danh Mục -->
+        <div class="filter-container">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="app">Apps</button>
+          <button class="filter-btn" data-filter="game">Games</button>
+        </div>
+
+        <!-- Danh sách hiển thị dưới dạng lưới -->
+        <div class="apps-grid" id="apps-grid">
+          <!-- App cards nạp động từ config.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+
+        <!-- Thông tin liên hệ bên trái -->
+        <div class="contact-info-box">
+          <span class="section-tag">Get in touch</span>
+          <h2>Contact Support</h2>
+          <p class="contact-description">
+            Have questions, feedback, or need technical support regarding my apps or games? Please send an email
+            or fill out the form on the right, and I will respond as soon as possible.
+          </p>
+
+          <div class="contact-detail-list">
+            <!-- Hộp Email -->
+            <div class="contact-detail-item">
+              <div class="contact-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="16" x="2" y="4" rx="2" />
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                </svg>
+              </div>
+              <div>
+                <div class="contact-label">Support Email</div>
+                <a href="#" class="contact-value" id="contact-email-link"><span
+                    id="contact-email">[EMAIL_ADDRESS]</span></a>
+              </div>
+            </div>
+
+            <!-- Hộp Địa Chỉ -->
+            <div class="contact-detail-item">
+              <div class="contact-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div>
+                <div class="contact-label">Area of operation</div>
+                <div class="contact-value" id="contact-address">Ho Chi Minh City, Vietnam</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Biểu mẫu gửi mail bên phải
+        <div class="contact-form-container">
+          <form class="contact-form" id="contact-form">
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="form-name">Full Name *</label>
+                <input type="text" id="form-name" class="form-input" placeholder="Nguyen Van A" required>
+              </div>
+              <div class="form-group">
+                <label for="form-email">Contact Email *</label>
+                <input type="email" id="form-email" class="form-input" placeholder="email" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="form-subject">Topics Needing Assistance *</label>
+              <input type="text" id="form-subject" class="form-input"
+                placeholder="For example: Card top-up error in Shadow Ninja or Voto support request">
+            </div>
+
+            <div class="form-group">
+              <label for="form-message">Detailed Content *</label>
+              <textarea id="form-message" class="form-textarea"
+                placeholder="Describe your issue or suggestion in detail..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; height: 3.2rem;">
+              Submit Support Request
+            </button>
+          </form>
+        </div>-->
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <!-- Các liên kết mạng xã hội nạp động -->
+        <div class="footer-socials" id="footer-socials"></div>
+
+        <h3 style="font-weight: 700; margin-bottom: 0.5rem; color: var(--text-primary);" id="footer-dev-name">Developer
+        </h3>
+        <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1.5rem;">Providing user-friendly mobile
+          technology solutions.</p>
+
+        <p id="footer-copyright" style="font-size: 0.8rem; color: var(--text-muted);">© 2026 Developer. All rights
+          reserved.</p>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- TRANG XEM CHÍNH SÁCH BẢO MẬT & ĐIỀU KHOẢN DÀNH RIÊNG (ẨN MẶC ĐỊNH) -->
+  <div id="policy-page" class="policy-page-container">
+    <div class="container">
+      <div class="policy-content-wrapper" id="policy-content">
+        <!-- Nội dung chính sách nạp động qua hash router (vd: #privacy/voto) -->
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL CHI TIẾT ỨNG DỤNG (DIALOG BOX) -->
+  <div id="app-modal" class="modal-overlay">
+    <div class="modal-content">
+      <!-- Nút đóng nhanh -->
+      <button class="modal-close-btn" id="modal-close" aria-label="Đóng">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+
+      <!-- Đầu Modal -->
+      <div class="modal-app-header">
+        <div class="modal-app-icon" id="modal-icon">
+          <!-- Icon nạp động -->
+        </div>
+        <div class="modal-app-title-box">
+          <h2 id="modal-title">Application name</h2>
+          <div class="modal-app-meta">
+            <span id="modal-badge" class="app-badge">Application</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ảnh chụp màn hình -->
+      <div class="modal-body-section">
+        <div class="modal-section-title">Screenshot of the application</div>
+        <div class="screenshot-carousel" id="modal-screenshots">
+          <!-- Screenshots hoặc CSS Mockups nạp động -->
+        </div>
+      </div>
+
+      <!-- Mô tả chi tiết -->
+      <div class="modal-body-section">
+        <div class="modal-section-title">Introducing the product</div>
+        <p id="modal-desc" style="color: var(--text-secondary); font-size: 0.95rem;">Mô tả sản phẩm...</p>
+      </div>
+
+      <!-- Tính năng nổi bật -->
+      <div class="modal-body-section">
+        <div class="modal-section-title">Key features</div>
+        <ul class="modal-features-list" id="modal-features">
+          <!-- Các thẻ li nạp động -->
+        </ul>
+      </div>
+
+      <!-- Đường dẫn tải Store -->
+      <div class="modal-download-buttons" id="modal-downloads">
+        <!-- Nút tải nạp động -->
+      </div>
+
+      <!-- Đường dẫn xem chính sách pháp lý -->
+      <div class="modal-policy-links" id="modal-policy-links">
+        <!-- Link Privacy Policy & Terms of Service nạp động -->
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
