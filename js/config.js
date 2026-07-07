@@ -267,7 +267,7 @@ const APP_CONFIG = {
       appStoreUrl: "#",
       screenshots: ["assets/cooko/cooko1.png", "assets/cooko/cooko2.png", "assets/cooko/cooko3.png"],
       privacyPolicy: `
-        <h3>Terms of Service for iCooko</h3>
+        <h3>Privacy Policy for iCooko</h3>
         <p>Effective Date: 13/06/2026</p>
         <p>Welcome to iCooko ("we", "our app"). We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, store, and protect your information when you use the iCooko app.</p>
         <h4>Information We Collect</h4>
@@ -299,7 +299,40 @@ const APP_CONFIG = {
         <p>If you have any questions about this Privacy Policy, please contact us via email: ntanh777@gmail.com.</p>
       `,
       termsOfService: `
-        <p>Check it out on the App/Game</p>
+        <h3>Terms of Service for iCooko</h3>
+        <p>Effective Date: 13/06/2026</p>
+        <p>Please read these Terms of Service ("Terms") carefully before using the iCooko mobile application operated by the iCooko Team ("we"). Accessing and using the application signifies your agreement to abide by these Terms.</p>
+        <h4>Acceptance of Terms</h4>
+        <p>By downloading, installing, or using the iCooko application, you agree to be bound by these Terms. If you do not agree with any part of the Terms, you are not permitted to use the application.</p>
+        <h4>User Account</h4>
+        <p>- To use certain features of the app (such as creating recipes, writing reviews, following other users), you must create an account through supported authentication methods.</p>
+        <p>- You are responsible for maintaining the security of your account information and password. You are solely responsible for all activities that occur under your account.</p>
+        <p>- You must provide accurate information and update it when changes occur.</p>
+        <h4>Ownership and Responsibility for Content</h4>
+        <p>+ Your Content: You retain full ownership of the recipes, images, and videos you upload to iCooko. However, by uploading such content, you grant iCooko a non-exclusive, royalty-free, globally valid license to display, store, distribute, and promote that content on the iCooko platform.</p>
+        <p>+ Content Responsibility: You agree that the content you post does not infringe on the copyright, trademark, or any third-party intellectual property rights. You are fully legally responsible for the content you share.</p>
+        <p>+ Prohibited Content: You are not allowed to post the following content:</p>
+        <p>  - Content that is offensive, defamatory, incites violence, is offensive, or obscene.</p>
+        <p>  - Content that is misleading, fraudulent, or contains malicious code.</p>
+        <p>  - Spam or impersonation of others.</p>
+        <p>  - Recipes containing dangerous ingredients or processes that could directly harm the health of others.</p>
+        <h4>Premium Subscription Packages & Payment</h4>
+        <p>- iCooko offers Premium subscription packages (Monthly, Annually) or a Lifetime purchase to experience ad-free service and unlock advanced features.</p>
+        <p>- Payment transactions are processed directly through the In-App Purchase mechanism of the Google Play Store (Android) or Apple App Store (iOS). Any refund requests or payment disputes will be governed by the policies of these app stores.</p>
+        <p>- Monthly or annual Premium subscriptions will automatically renew unless you cancel your subscription at least 24 hours before the end of the current billing cycle. You can manage and cancel renewals in the Google Play or Apple Store app account settings.</p>
+        <h4>Watch Ads to Get Free Premium</h4>
+        <p>- iCooko offers a mechanism that allows users to watch 10 video ads to redeem for 1 day of free Premium access.</p>
+        <p>- This feature depends on the availability of video ads from our Google AdMob partner. We do not guarantee that ads will always be available at all times or locations.</p>
+        <p>- Any fraudulent activity or use of automated tools (Auto-clicker/Bot) to bypass ad viewing will result in immediate account suspension without prior notice.</p>
+        <h4>Termination of Service</h4>
+        <p>We reserve the right to terminate or suspend your access to the application immediately, without prior notice or legal liability, if you violate any of the terms in this document. Upon termination, your access to the application will be revoked immediately.</p>
+        <h4>Limitation of Liability</h4>
+        <p>- iCooko is a platform for sharing and referencing recipes. We are not responsible for your cooking results, food allergies, injuries, or equipment damage that occur while you follow the recipes on the application.</p>
+        <p>- The application is provided on an "as is" and "as available" basis. We do not guarantee that the application will operate without interruption, without errors, or be completely free from viruses.</p>
+        <h4>Applicable Law</h4>
+        <p>These Terms are governed by and interpreted in accordance with the laws of the Socialist Republic of Vietnam, without regard to conflict of laws principles.</p>
+        <h4>Contact</h4>
+        <p>For any questions or feedback regarding these Terms of Service, please send an email to: ntanh777@gmail.com</p>
       `
     },
     {
