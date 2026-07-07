@@ -60,7 +60,7 @@ const APP_CONFIG = {
     `,
 
     socialLinks: {
-      github: "https://ntanh777.github.io/ntanh",
+      github: "https://ntanh777.github.io",
       linkedin: "#",
       twitter: "#",
       facebook: "#"
@@ -76,7 +76,7 @@ const APP_CONFIG = {
   apps: [
     {
       id: "voto",
-      name: "Voto - Ask the world, get the truth",
+      name: "iVoto - Ask the world, get the truth",
       type: "app", // 'app' hoặc 'game'
 
       // Icon ứng dụng: Ưu tiên dùng ảnh logo (Khuyên dùng hình vuông tỉ lệ 1:1, kích thước 512x512 px hoặc 1024x1024 px). Nếu chưa có ảnh, dùng SVG mặc định bên dưới.
@@ -94,7 +94,7 @@ const APP_CONFIG = {
       </svg>`,
 
       shortDescription: "An application for real-time online surveys, voting, and polling.",
-      description: "Voto is an intuitive solution that helps groups, classes, businesses, friends, or communities easily create surveys, collect votes quickly and transparently. The app supports real-time update of voting results with clear and vivid charts.",
+      description: "iVoto is an intuitive solution that helps groups, classes, businesses, friends, or communities easily create surveys, collect votes quickly and transparently. The app supports real-time update of voting results with clear and vivid charts.",
 
       features: [
         "Create a poll in just 30 seconds.",
@@ -115,7 +115,7 @@ const APP_CONFIG = {
       privacyPolicy: `
         <h3>Privacy Policy for Voto</h3>
         <p>Effective Date: 09/06/2026</p>
-        <p>The Voto application is built by Nguyen Tuan Anh as a free application (or contains advertisements). This service is provided by Nguyen Tuan Anh and is designed for native use.</p>
+        <p>The iVoto application is built by Nguyen Tuan Anh as a free application (or contains advertisements). This service is provided by Nguyen Tuan Anh and is designed for native use.</p>
         
         <h4>1. Collection and Use of Information</h4>
         <p>To provide a better experience when using our Service, I may ask you to provide us with certain personally identifiable information.</p>
@@ -238,7 +238,7 @@ const APP_CONFIG = {
     },
     {
       id: "cooko",
-      name: "Cooko - Simply cook, simply cooko",
+      name: "iCooko - Simply cook, simply iCooko",
       type: "app",
       logoUrl: "assets/icon 1024 - cooko.png",
       logoSvg: `<svg viewBox="0 0 100 100" class="w-full h-full">
@@ -254,15 +254,49 @@ const APP_CONFIG = {
         <circle cx="50" cy="50" r="8" fill="#111827"/>
       </svg>`,
       shortDescription: "Cooking is easy with Cooko! Discover and share recipes and tutorial videos anytime.",
-      description: "Cooko - Simply cook, simply cooko.</br> Do you love cooking but are always racking your brains trying to decide what to cook? Do you want to share your unique cooking secrets with friends and the community? Let Cooko accompany you on your culinary journey!",
+      description: "iCooko - Simply cook, simply iCooko. Do you love cooking but are always racking your brains trying to decide what to cook? Do you want to share your unique cooking secrets with friends and the community? Let Cooko accompany you on your culinary journey!",
       features: [
-        "Check it out on the App/Game",
+        "Diverse and Secure Login System: Supports quick account registration and authentication via Email/Personal Password, Google Sign-In or Apple Sign-In (on iOS) ensuring maximum convenience and security.",
+        "Sharing Detailed Recipes: The new recipe creation interface allows for detailed configuration: dish name, description, category (Breakfast, Lunch, Dinner, Dessert, Snack, Drink, Vegetarian, Vegan, Seafood, Meat), difficulty level (Easy, Medium, Hard), preparation/cooking time, serving size, ingredient list, and steps.",
+        "Advanced Filtering & Sorting: Explore the culinary world through smart filters by food category, difficulty level, and sort by popularity (Most Popular), newest (Most Recent), or highest rating (Highest Rated).",
+        "Professional Profile Management: Each user has a unique profile displaying their name, profile picture, bio, list of self-posted recipes (My Recipes), and interaction metrics (Followers, Following, Recipes Count).",
+        "Smart Sync: The application only downloads and synchronizes new or changed recipe data from the cloud system to the device, minimizing bandwidth usage and increasing application launch speed.",
+        "Privacy & Community Safety: Supports reporting inappropriate, spam, plagiarized, or harmful content. Permanent account deletion and data security features strictly comply with Apple App Store and Google Play Store regulations."
       ],
       playStoreUrl: "#",
       appStoreUrl: "#",
       screenshots: ["assets/cooko/cooko1.png", "assets/cooko/cooko2.png", "assets/cooko/cooko3.png"],
       privacyPolicy: `
-        <p>Check it out on the App/Game</p>
+        <h3>Terms of Service for iCooko</h3>
+        <p>Effective Date: 13/06/2026</p>
+        <p>Welcome to iCooko ("we", "our app"). We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, store, and protect your information when you use the iCooko app.</p>
+        <h4>Information We Collect</h4>
+        <p>When you use iCooko, we may collect the following information:</p>
+        <p>- Account information: Display name, email address, and profile picture when you register via Email, Google, or Apple.</p>
+        <p>- User-generated content: Recipes, images, cooking tutorial videos, comments, likes, saves, and reviews that you publicly post to the app.</p>
+        <p>- Device and usage information: IP address, device type, operating system, app performance metrics (crash errors via Firebase Crashlytics), and usage behavior (via Firebase Analytics).</p>
+        <p>- Advertising Data: Mobile device advertising ID for delivering and measuring ads through the Google AdMob service.</p>
+        <h4>How We Use Your Information</h4>
+        <p>We use your information for the following purposes:</p>
+        <p>- Providing, operating, and maintaining the services and features of the iCooko app.</p>
+        <p>- Managing your personal account, verifying access, and personalizing your cooking experience.</p>
+        <p>- Temporarily storing images and videos to optimize offline viewing experience and save you data.</p>
+        <p>- Displaying non-personalized or personalized ads (compliance with GDPR Consent via UMP SDK for users in the European Economic Area - EEA).</p>
+        <p>- Processing and verifying Premium package purchases (In-App Purchases) through the Google Play Store and Apple App Store.</p>
+        <p>- Detecting, preventing, and addressing fraud, terms violations, or technical errors.</p>
+        <h4>Data Storage and Security</h4>
+        <p>- Your data is securely stored on Google Firebase's cloud servers.</p>
+        <p>- We employ industry-standard technical security measures (such as SSL/HTTPS data transmission encryption and strict Firebase Security Rules) to prevent unauthorized access, modification, or disclosure of information.</p>
+        <p>- However, no method of internet transmission or electronic storage is 100% secure, so we cannot guarantee absolute security.</p>
+        <h4>Your Rights Regarding Personal Data</h4>
+        <p>- You have the right to view and edit your profile information (Display Name, Profile Picture, Bio) at any time through the personal settings page in the application.</p>
+        <p>- Right to delete account: You have the right to permanently delete your account and all related personal data at any time using the "Delete Account" feature in the application's Settings. To ensure security, the system requires you to enter a confirmation password before proceeding with the deletion. After confirmation, all your account information and recipes in the database will be completely deleted and cannot be recovered.</p>
+        <h4>Children's Privacy</h4>
+        <p>The application does not actively collect personal information from children under 13 years old. If you are a parent or guardian and discover that your child has provided personal information to us, please contact us so we can delete that information from the system.</p>
+        <h4>Changes to the Privacy Policy</h4>
+        <p>We may update this Privacy Policy from time to time. Any changes will take effect immediately upon being posted in the application. Continuing to use the application after changes means you accept the new Privacy Policy.</p>
+        <h4>Contact Support</h4>
+        <p>If you have any questions about this Privacy Policy, please contact us via email: ntanh777@gmail.com.</p>
       `,
       termsOfService: `
         <p>Check it out on the App/Game</p>
