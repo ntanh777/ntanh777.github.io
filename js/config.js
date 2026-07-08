@@ -104,8 +104,8 @@ const APP_CONFIG = {
         "Minimalist interface, intuitive and easy to use for all ages."
       ],
 
-      playStoreUrl: "https://apps.apple.com/vn/app/ivoto/id6784168135?l=vi", 
-      appStoreUrl: "https://play.google.com/store/apps/details?id=com.atbtech.voto&pcampaignid=web_share", // Để '#' nếu chưa lên App Store
+      playStoreUrl: "https://play.google.com/store/apps/details?id=com.atbtech.voto&pcampaignid=web_share", 
+      appStoreUrl: "https://apps.apple.com/vn/app/ivoto/id6784168135?l=vi", // Để '#' nếu chưa lên App Store
 
       // Ảnh chụp màn hình (nếu chưa có ảnh thật, hệ thống sẽ tự sinh các khung placeholder đẹp mắt).
       // Khuyên dùng tỉ lệ màn hình đứng 9:16 (ví dụ: 1080x1920 px hoặc 1242x2688 px) để hiển thị tốt nhất trên thiết bị di động.
