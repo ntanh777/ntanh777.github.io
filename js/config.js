@@ -172,8 +172,8 @@ const APP_CONFIG = {
         "Global Leaderboards: Sign in quickly via Google, Apple ID, or as an anonymous guest to lock in your high score and climb the ranks in our worldwide Top 1000 board.",
         "Offline-First Smart Sync: Play anywhere, even without internet access (e.g., in subways or remote areas). Your high score is cached locally and safely synced to Firestore once you get back online."
       ],
-      playStoreUrl: "#",
-      appStoreUrl: "#",
+      playStoreUrl: "https://play.google.com/store/apps/details?id=com.atbtech.slido&pcampaignid=web_share",
+      appStoreUrl: "https://apps.apple.com/vn/app/slido/id6785599716?l=vi",
       screenshots: ["assets/slido/slido1.png", "assets/slido/slido2.png", "assets/slido/slido3.png"],
       privacyPolicy: `
         <h3>Privacy Policy for Slido</h3>
@@ -263,8 +263,8 @@ const APP_CONFIG = {
         "Smart Sync: The application only downloads and synchronizes new or changed recipe data from the cloud system to the device, minimizing bandwidth usage and increasing application launch speed.",
         "Privacy & Community Safety: Supports reporting inappropriate, spam, plagiarized, or harmful content. Permanent account deletion and data security features strictly comply with Apple App Store and Google Play Store regulations."
       ],
-      playStoreUrl: "https://play.google.com/store/apps/details?id=com.atbtech.slido&pcampaignid=web_share",
-      appStoreUrl: "https://apps.apple.com/vn/app/slido/id6785599716?l=vi",
+      playStoreUrl: "#",
+      appStoreUrl: "#",
       screenshots: ["assets/cooko/cooko1.png", "assets/cooko/cooko2.png", "assets/cooko/cooko3.png"],
       privacyPolicy: `
         <h3>Privacy Policy for iCooko</h3>
