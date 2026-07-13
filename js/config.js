@@ -263,8 +263,8 @@ const APP_CONFIG = {
         "Smart Sync: The application only downloads and synchronizes new or changed recipe data from the cloud system to the device, minimizing bandwidth usage and increasing application launch speed.",
         "Privacy & Community Safety: Supports reporting inappropriate, spam, plagiarized, or harmful content. Permanent account deletion and data security features strictly comply with Apple App Store and Google Play Store regulations."
       ],
-      playStoreUrl: "#",
-      appStoreUrl: "#",
+      playStoreUrl: "https://play.google.com/store/apps/details?id=com.atbtech.slido&pcampaignid=web_share",
+      appStoreUrl: "https://apps.apple.com/vn/app/slido/id6785599716?l=vi",
       screenshots: ["assets/cooko/cooko1.png", "assets/cooko/cooko2.png", "assets/cooko/cooko3.png"],
       privacyPolicy: `
         <h3>Privacy Policy for iCooko</h3>
