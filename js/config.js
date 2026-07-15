@@ -265,7 +265,7 @@ const APP_CONFIG = {
       ],
       playStoreUrl: "#",
       appStoreUrl: "#",
-      screenshots: ["assets/cooko/cooko1.png", "assets/cooko/cooko2.png", "assets/cooko/cooko3.png"],
+      screenshots: ["assets/cooko/Hinh 1.png", "assets/cooko/Hinh 2.png", "assets/cooko/Hinh 3.png", "assets/cooko/Hinh 4.png", "assets/cooko/Hinh 5.png"],
       privacyPolicy: `
         <h3>Privacy Policy for iCooko</h3>
         <p>Effective Date: 13/06/2026</p>
