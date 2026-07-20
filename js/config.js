@@ -76,7 +76,7 @@ const APP_CONFIG = {
   apps: [
     {
       id: "voto",
-      name: "iVoto - Ask the world, get the truth",
+      name: "iVoto - Surveys & Polls - Ask the world, get the truth",
       type: "app", // 'app' hoặc 'game'
 
       // Icon ứng dụng: Ưu tiên dùng ảnh logo (Khuyên dùng hình vuông tỉ lệ 1:1, kích thước 512x512 px hoặc 1024x1024 px). Nếu chưa có ảnh, dùng SVG mặc định bên dưới.
@@ -148,7 +148,7 @@ const APP_CONFIG = {
     },
     {
       id: "slido",
-      name: "Slido - Slide to fit, play to chill",
+      name: "Slido - Slide Block Puzzle - Slide to fit, play to chill",
       type: "game", // 'app' hoặc 'game'
       logoUrl: "assets/icon 1024 - slido.png",
       logoSvg: `<svg viewBox="0 0 100 100" class="w-full h-full">
@@ -238,7 +238,7 @@ const APP_CONFIG = {
     },
     {
       id: "cooko",
-      name: "iCooko - Simply cook, simply iCooko",
+      name: "iCooko  - Recipes & Cooking - Simply cook, simply iCooko",
       type: "app",
       logoUrl: "assets/icon 1024 - cooko.png",
       logoSvg: `<svg viewBox="0 0 100 100" class="w-full h-full">
@@ -337,7 +337,7 @@ const APP_CONFIG = {
     },
     {
       id: "rebox",
-      name: "Rebox - Give old a new life",
+      name: "Rebox - Trade Used Items - Give old a new life",
       type: "app",
       logoUrl: "assets/icon 1024 - rebox.png",
       logoSvg: `<svg viewBox="0 0 100 100" class="w-full h-full">
@@ -370,7 +370,7 @@ const APP_CONFIG = {
     },
     {
       id: "petto",
-      name: "Petto - Care with love, share with joy",
+      name: "Petto - Pet Social Network - Care with love, share with joy",
       type: "app",
       logoUrl: "assets/icon 1024 - petto.png",
       logoSvg: `<svg viewBox="0 0 100 100" class="w-full h-full">
@@ -402,7 +402,7 @@ const APP_CONFIG = {
     },
     {
       id: "droppo",
-      name: "Droppo - Drop the win, connect the fun",
+      name: "Droppo - Connect 4 Puzzle - Drop the win, connect the fun",
       type: "game",
       logoUrl: "assets/icon 1024 - droppo.png",
       logoSvg: `<svg viewBox="0 0 100 100" class="w-full h-full">
@@ -435,7 +435,7 @@ const APP_CONFIG = {
     },
     {
       id: "ticko",
-      name: "Ticko - Make every second count",
+      name: "Ticko - Productivity & Tools - Make every second count",
       type: "app",
       logoUrl: "assets/icon 1024 - ticko.png",
       logoSvg: `<svg viewBox="0 0 100 100" class="w-full h-full">
