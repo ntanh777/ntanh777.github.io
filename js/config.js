@@ -63,7 +63,7 @@ const APP_CONFIG = {
       github: "https://ntanh777.github.io",
       linkedin: "#",
       twitter: "#",
-      facebook: "#"
+      facebook: "https://www.facebook.com/profile.php?id=61592075430199"
     }
   },
 
