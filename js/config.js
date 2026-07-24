@@ -364,7 +364,7 @@ const APP_CONFIG = {
         "🏆 Top User Rankings (Leadership): Recognizing active users, diverse reach.",
         "💎 Premium Membership Package (Rebox Premium): Perfect experience, completely ad-free, daily featured posts, unlimited posting. Premium badges, free user support."
       ],
-      playStoreUrl: "#",
+      playStoreUrl: "https://play.google.com/store/apps/details?id=com.atbtech.rebox",
       appStoreUrl: "#",
       screenshots: ["assets/rebox/rebox1.png", "assets/rebox/rebox2.png", "assets/rebox/rebox3.png"],
       privacyPolicy: `
