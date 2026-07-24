@@ -366,7 +366,7 @@ const APP_CONFIG = {
       ],
       playStoreUrl: "#",
       appStoreUrl: "#",
-      screenshots: ["assets/rebox/rebox1.png", "assets/rebox/rebox2.png", "assets/rebox/rebox3.png", "assets/rebox/rebox4.png", "assets/rebox/rebox5.png"],
+      screenshots: ["assets/rebox/rebox1.png", "assets/rebox/rebox2.png", "assets/rebox/rebox3.png"],
       privacyPolicy: `
         <h3>Privacy Policy</h3>
         <p>Last updated: June 2026</p>
