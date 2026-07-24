@@ -356,16 +356,86 @@ const APP_CONFIG = {
       shortDescription: "Rebox - A smart and environmentally friendly app for buying and selling used items near you.",
       description: "Do you have items you no longer use but are still in good condition and valuable? Are you looking to declutter your home and optimize your living space but don't know how to dispose of old items to avoid waste? Or are you searching for quality items at affordable prices to save money?.</br>Welcome to **ReBox** – the leading mobile app connecting communities for buying, selling, exchanging, and reusing used goods. With the slogan 'Give old a new life', ReBox offers a green, smart, and environmentally friendly consumption solution. We not only help you turn old items into cash or exchange them for other useful items, but also work with you to reduce plastic waste, electronic waste, and move towards a sustainable lifestyle.",
       features: [
-        "Check it out on the App/Game",
+        "🔐 Versatile Authentication & Security: Flexible login, Guest mode.",
+        "📝 Convenient & Fast Posting: Instant post creation, Flexible ad types, Visual Status Rating, Diverse categories.",
+        "📍 Automatic GPS Location & Nearby Search: Automatic location identification, Secure address information, Nearby search.",
+        "💬 Live Chat & Negotiated Delivery: Live messaging, Inbox management.",
+        "🤝 Transaction Management & Reputation Rating: Transaction tracking, Listing completion, Reputation rating.",
+        "🏆 Top User Rankings (Leadership): Recognizing active users, diverse reach.",
+        "💎 Premium Membership Package (Rebox Premium): Perfect experience, completely ad-free, daily featured posts, unlimited posting. Premium badges, free user support."
       ],
       playStoreUrl: "#",
       appStoreUrl: "#",
-      screenshots: ["assets/rebox/rebox1.png", "assets/rebox/rebox2.png", "assets/rebox/rebox3.png"],
+      screenshots: ["assets/rebox/rebox1.png", "assets/rebox/rebox2.png", "assets/rebox/rebox3.png", "assets/rebox/rebox4.png", "assets/rebox/rebox5.png"],
       privacyPolicy: `
-        <p>Check it out on the App/Game</p>
+        <h3>Privacy Policy</h3>
+        <p>Last updated: June 2026</p>
+        <p>Welcome to **ReBox** (hereinafter referred to as "We" or "The App"). We are committed to protecting your privacy and personal information. This Privacy Policy explains how we collect, use, store, and protect your information when you use the ReBox app.</p>
+        <h4>A. Information We Collect</h4>
+        <p>To provide a safe and optimal trading experience, we collect the following information:</p>
+        <p>1. **Account Information:** When registering, we collect your display name, email address, phone number, and encrypted password. If you log in using Google or Apple, we will receive information you authorize from those accounts (display name, email, profile picture).</p>
+        <p>2. **Transaction Information:** A list of listings for sale, trades, chat history, product images, and successful transaction history.</p>
+        <p>3. **Geolocation Information:** If you allow it, we will use your device's GPS coordinates to calculate the distance between you and display listings near you.</p>
+        <p>4. **Images and Media:** Access to your device's camera and storage is required for you to take photos of products for sale or send photos via chat.</p>
+        <p>5. **Device Data and Logs:** IP address, device type, operating system version, and system event data for application error analysis (via Firebase Crashlytics) and activity statistics (via Firebase Analytics).</p>
+        <h4>B. How We Use Your Information</h4>
+        <p>We use the information we collect for the following purposes:</p>
+        <p>* Providing, operating, and maintaining application features (posting messages, chat, distance calculation, user ratings).</p>
+        <p>* Improving user experience through anonymous behavioral data analysis.</p>
+        <p>* Verifying accounts, preventing fraud, scams, and identity falsification.</p>
+        <p>* Displaying ads relevant to your geographic area (for free users via AdMob).</p>
+        <p>* Sending push notifications about important activities such as new messages, purchase inquiries, or important system updates.</p>
+        <h4>C. Sharing & Disclosing Information</h4>
+        <p>* We absolutely do not sell, exchange, or rent your personal information to any third party. Your personal information will only be shared in the following cases:</p>
+        <p>* Public display within the app: Your display name, profile picture, public post list, average rating, and your Province/City/District/County location will be publicly displayed for other users to search and transact with.</p>
+        <p>* Service provider: We use reliable Google Firebase cloud infrastructure services to store databases and operate the application. This data is strictly protected according to Google's global security standards.</p>
+        <p>* Legal requirements: We may disclose your information if required by law or when it is necessary to protect the legal rights of ReBox, our users, or the community.</p>
+        <h4>D. Data Security</h4>
+        <p>* We employ the most advanced technical and organizational security measures (SSL/TLS data transmission encryption, strict Firestore Security Rules from the server side) to protect your personal data from unauthorized access, loss, destruction, or alteration.</p>
+        <h4>E. User Rights & Data Deletion Requests</h4>
+        <p>You have full control over your personal information within the application:</p>
+        <p>* Editing information: You can change your display name, password, and profile picture in the "Edit Profile" section.</p>
+        <p>* Requesting permanent account deletion: In account settings, ReBox provides the **"Delete Account"** feature. When you confirm this action and enter the correct verification password, all personal information, post lists, message history, and reviews related to your account will be permanently deleted from our servers and cannot be recovered.</p>
+        <h4>F. Contact Support</h4>
+        <p>If you have any questions about this Privacy Policy or would like to submit a request regarding personal data, please contact us via:</p>
+        <p>**Email:** ntanh777@gmail.com</p>
       `,
       termsOfService: `
-        <p>Check it out on the App/Game</p>
+        <h3>Terms of Service</h3>
+        <p>**Last updated: June 2026**</p>
+        <p>Welcome to **ReBox**. By registering an account, downloading, or using the ReBox app, you agree to abide by and be bound by the Terms of Service below. If you do not agree with any part of these terms, please do not continue using the app.</p>
+        <h4>1. Account Registration & Participation Requirements</h4>
+        <p>* Age: You must be 18 years of age or older, or have the supervision and consent of a parent or legal guardian when using the app.</p>
+        <p>* Honesty: You commit to providing accurate, complete, and regularly updated registration information. You are solely responsible for the security of your login information and all activities under your account.</p>
+        <p>* Number of accounts: Each user may only register and use one unique account. Any act of creating multiple fake accounts to fraudulently manipulate reviews or boost listings will be severely punished.</p>
+        <h4>2. Service Scope & Shipping Regulations</h4>
+        <p>* Service Scope: ReBox is a purely online platform connecting people who want to sell/exchange used items and people who want to buy/receive those items.</p>
+        <p>* NO shipping service provided: **ReBox** is not a shipping company, does not provide delivery services, does not integrate a team of shippers, and does not accept consignment of goods in any form.</p>
+        <p>* Self-responsibility for delivery: Buyers and sellers communicate via chat to agree on the shipping method (including: meeting in person for delivery, or one party using/paying for third-party delivery services). ReBox does not interfere with and is not responsible for any risks arising from the shipping process (such as loss, damage, or breakage of goods).</p>
+        <h4>3. Regulations Regarding Posts & Goods for Trading</h4>
+        <p>When posting buy, sell, exchange, or gift listings on ReBox, you must strictly adhere to the following regulations:</p>
+        <p>* Accurate Information: The title, images, and product description must accurately reflect the actual condition of the product. Do not use fake images or images downloaded from the internet without authorization.</p>
+        <p>* Prohibited Items List: Absolutely prohibited are the posting or exchange of items that violate Vietnamese and international law, including but not limited to:</p>
+        <p>+ Weapons, explosives, and dangerous support tools.</p>
+        <p>+ Drugs, stimulants, prescription drugs, and toxic chemicals.</p>
+        <p>+ Counterfeit goods, imitation products, and goods infringing intellectual property rights.</p>
+        <p>+ Fresh food of unknown origin, and wild animals.</p>
+        <p>+ Products that are pornographic, violent, obscene, or incite hatred.</p>
+        <p>* Removal Right: ReBox has the full right to moderate and remove any posts without prior notice if it detects a violation of its policies or receives violation reports from the community.</p>
+        <h4>4. Transaction Disclaimer</h4>
+        <p>* ReBox's Role: ReBox operates purely as an online platform connecting buyers and sellers (an intermediary sorting platform). We are not an agent, broker, or a party involved in any actual transactions or shipping processes between the parties.</p>
+        <p>* Self-Responsibility: Buyers and sellers agree on prices, payment methods, delivery locations, and product quality checks when meeting in person.</p>
+        <p>* Disputes: ReBox is completely exempt from legal liability for any losses, damages, lost goods, or disputes arising from transactions and shipping between users. We recommend choosing public, safe locations for in-person meetings.</p>
+        <h4>5. Rebox Premium Subscription Packages & Payment</h4>
+        <p>* Service Fee: Premium packages are offered as one-time purchases or recurring renewals at the listed prices within the app.</p>
+        <p>* Refund Policy: Premium package purchase fees will be processed through the Google Play and Apple App Store payment gateways. These fees are non-refundable under any circumstances after a successful purchase, except as specifically stipulated by the app store's policies.</p>
+        <p>* Feature Changes: ReBox reserves the right to change the subscription fee or Premium benefit structure at any time after prior notification on the app.</p>
+        <h4>6. Reporting Violations & Termination of Usage Rights</h4>
+        <p>* Reporting inappropriate content: Users are encouraged to use the **"Report Post"** feature to provide feedback to the administration team regarding fraudulent, miscategorized, or inappropriate content posts.</p>
+        <p>* Account Freezing: We reserve the right to temporarily suspend or permanently delete your account immediately, without prior notice, if you violate any of the terms of this agreement, negatively impact the community's reputation, or engage in fraudulent activities.</p>
+        <p>7. Changes to Terms of Use</p>
+        <p>* Chúng tôi có thể cập nhật các Điều Khoản Dịch Vụ này định kỳ để phù hợp với sự thay đổi của pháp luật hoặc cải tiến của ứng dụng. Việc bạn tiếp tục sử dụng ReBox sau khi các thay đổi được đăng tải đồng nghĩa với việc bạn chấp nhận và đồng ý tuân thủ các điều khoản mới.</p>
+        <p>* If you have any questions about the Terms of Service, please contact us via email: **ntanh777@gmail.com**.</p>
       `
     },
     {
