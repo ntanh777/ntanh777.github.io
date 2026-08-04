@@ -438,7 +438,7 @@ const APP_CONFIG = {
         <p>* If you have any questions about the Terms of Service, please contact us via email: **ntanh777@gmail.com**.</p>
       `
     },
-    {
+    /*{
       id: "petto",
       name: "Petto - Pet Social Network - Care with love, share with joy",
       type: "app",
@@ -534,7 +534,7 @@ const APP_CONFIG = {
       termsOfService: `
         <p>Check it out on the App/Game</p>
       `
-    }
+    }*/
   ]
 };
 
