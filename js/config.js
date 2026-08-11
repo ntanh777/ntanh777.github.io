@@ -438,6 +438,38 @@ const APP_CONFIG = {
         <p>* If you have any questions about the Terms of Service, please contact us via email: **ntanh777@gmail.com**.</p>
       `
     },
+    {
+      id: "yummo",
+      name: "Yummo - Map your taste, pin your food",
+      type: "app",
+      logoUrl: "assets/icon 1024 - yummo.png",
+      logoSvg: `<svg viewBox="0 0 100 100" class="w-full h-full">
+        <rect width="100" height="100" rx="22" fill="url(#wordGrad)"/>
+        <defs>
+          <linearGradient id="wordGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#eab308" />
+            <stop offset="100%" stop-color="#ca8a04" />
+          </linearGradient>
+        </defs>
+        <!-- Biểu tượng ô chữ ký tự W -->
+        <rect x="25" y="25" width="50" height="50" rx="10" fill="#ffffff"/>
+        <text x="50" y="62" font-family="system-ui, sans-serif" font-weight="900" font-size="42" fill="#ca8a04" text-anchor="middle">W</text>
+      </svg>`,
+      shortDescription: "Petto: Comprehensive pet health management, vaccinations, and community connection for pet lovers.",
+      description: "Petto is an all-in-one app that helps you comprehensively manage your pet's health information, while also connecting you with a community of animal lovers. Whether you own a dog, cat, bird, fish, hamster, or rabbit, Petto provides smart tools to care for your pets in the most scientific and easy way.",
+      features: [
+        "Check it out on the App/Game",
+      ],
+      playStoreUrl: "#",
+      appStoreUrl: "#",
+      screenshots: ["assets/yummo/yummo1.png", "assets/yummo/yummo2.png", "assets/yummo/yummo3.png"],
+      privacyPolicy: `
+        <p>Check it out on the App/Game</p>
+      `,
+      termsOfService: `
+        <p>Check it out on the App/Game</p>
+      `
+    },
     /*{
       id: "petto",
       name: "Petto - Pet Social Network - Care with love, share with joy",
