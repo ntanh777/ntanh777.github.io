@@ -439,10 +439,10 @@ const APP_CONFIG = {
       `
     },
     {
-      id: "yummo",
-      name: "Yummo - Map your taste, pin your food",
-      type: "app",
-      logoUrl: "assets/icon 1024 - yummo.png",
+      id: "ballo",
+      name: "Ballo - Ball Block Breaker",
+      type: "game",
+      logoUrl: "assets/icon 1024 - ballo.png",
       logoSvg: `<svg viewBox="0 0 100 100" class="w-full h-full">
         <rect width="100" height="100" rx="22" fill="url(#wordGrad)"/>
         <defs>
@@ -455,19 +455,51 @@ const APP_CONFIG = {
         <rect x="25" y="25" width="50" height="50" rx="10" fill="#ffffff"/>
         <text x="50" y="62" font-family="system-ui, sans-serif" font-weight="900" font-size="42" fill="#ca8a04" text-anchor="middle">W</text>
       </svg>`,
-      shortDescription: "Petto: Comprehensive pet health management, vaccinations, and community connection for pet lovers.",
-      description: "Petto is an all-in-one app that helps you comprehensively manage your pet's health information, while also connecting you with a community of animal lovers. Whether you own a dog, cat, bird, fish, hamster, or rabbit, Petto provides smart tools to care for your pets in the most scientific and easy way.",
+      shortDescription: "Ballo: Arcade Physics Puzzle - Aim, bounce, and clear blocks in Ballo — 100 levels plus endless Classic.",
+      description: "Ballo is a neon arcade physics puzzle: pull back to aim, launch your balls, and shatter glowing blocks with bombs, magnets, factories, teleports, and more.",
       features: [
-        "Check it out on the App/Game",
+        "Level Mode — 100 stages",
+        "Classic Mode — endless survival",
+        "Feel every hit",
+        "Play your way",
+        "Free to play"
       ],
       playStoreUrl: "#",
       appStoreUrl: "#",
-      screenshots: ["assets/yummo/yummo1.png", "assets/yummo/yummo2.png", "assets/yummo/yummo3.png"],
+      screenshots: ["assets/ballo/ballo1.png", "assets/ballo/ballo2.png", "assets/ballo/ballo3.png"],
       privacyPolicy: `
-        <p>Check it out on the App/Game</p>
+        <h3>Privacy Policy</h3>
+        <p>**Last updated:** August 21, 2026</p>
+        <h4>## 1. Who we are</h4>
+        <p>This Privacy Policy explains how ATB Tech (“we”, “us”) collects, uses, and shares information when you play Ballo, a free arcade physics puzzle game with Level Mode, Classic Mode, leaderboards, and optional rewarded ads.</p>
+        <p>Contact: ntanh777@gmail.com</p>
+        <h4>## 2. Information we collect</h4>
+        <p>- **Profile:** display name and optional country code you choose for leaderboards.</p>
+        <p>- **Game identifiers:** a random device-local player ID used to submit scores and claim a unique display name (not a login account).</p>
+        <p>- **Gameplay data:** scores that qualify for public Top 5 leaderboards; Classic and level personal bests are stored on your device.</p>
+        <p>- **Diagnostics:** crash reports and performance data via Firebase Crashlytics.</p>
+        <p>- **Analytics:** anonymous or pseudonymous events (for example level start/complete, Classic runs, ad reward funnel) via Firebase Analytics.</p>
+        <p>- **Ads & consent:** AdMob and Google User Messaging Platform (UMP) may process device and advertising identifiers according to your consent choices, including App Tracking Transparency on iOS where applicable.</p>
+        <h4>## 3. How we use information</h4>
+        <p>We use this information to run and improve Ballo: show rankings, enforce unique display names, balance gameplay, measure stability, deliver and measure ads, and provide optional rewarded video offers (for example extra balls in Level Mode).</p>
+        <h4>## 4. What stays on your device</h4>
+        <p>Audio preferences, level unlock progress, personal bests that are not on a public Top 5, and session-only reward counters remain on your device. Clearing app data or reinstalling may reset local progress. We do not offer cross-device account sync in the current version.</p>
+        <h4>## 5. Sharing & public leaderboards</h4>
+        <p>Display name, country, and qualifying scores appear on public Top 5 leaderboards visible to other players. We use service providers that process data on our behalf, including Google Firebase (Analytics, Crashlytics, Firestore, Cloud Functions, Remote Config) and Google AdMob. We do not sell your personal information.</p>
+        <h4>## 6. Ads & tracking choices</h4>
+        <p>Ballo shows banner, interstitial, native, and rewarded ads. Consent and privacy messaging are handled through UMP and, on iOS, may involve tracking permission. You can change device advertising or tracking settings at any time; limited ads may still appear in non-personalized form.</p>
+        <h4>## 7. Children</h4>
+        <p>Ballo is intended for a general audience. We do not knowingly collect personal information from children under 13 (or the equivalent minimum age in your region) for the purpose of creating profiles. If you believe a child has provided such information, contact us and we will take appropriate steps.</p>
+        <h4>## 8. Retention & security</h4>
+        <p>Leaderboard and profile records are kept while needed to operate the service. Local data remains until you clear it. We apply reasonable technical measures, but no method of transmission or storage is completely secure.</p>
+        <h4>## 9. Your choices & updates</h4>
+        <p>You may change your display name and country in the Player profile. You may stop using the app or uninstall it to end local collection. We may update this Policy; the “Last updated” date will change, and continued use after an update means you accept the revised Policy where permitted by law.</p>
+        <p>Questions and contact: ntanh777@gmail.com</p>
       `,
       termsOfService: `
-        <p>Check it out on the App/Game</p>
+        <h3>Terms of Service</h3>
+        <h4></h4>
+        <p></p>
       `
     },
     /*{
