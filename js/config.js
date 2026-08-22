@@ -498,8 +498,25 @@ const APP_CONFIG = {
       `,
       termsOfService: `
         <h3>Terms of Service</h3>
-        <h4></h4>
-        <p></p>
+        <h4>## 1. Agreement</h4>
+        <p>By downloading or playing Ballo, you agree to these Terms of Use and our Privacy Policy. If you do not agree, do not use the app.</p>
+        <h4>## 2. The game</h4>
+        <p>Ballo is a free-to-play arcade physics game. Features may include scripted levels, Classic endless mode, public Top 5 leaderboards, optional rewarded ads for in-run benefits, and remote-tuned gameplay parameters. Features may change, be limited by region, or be unavailable offline.</p>
+        <h4>## 3. License</h4>
+        <p>We grant you a personal, non-exclusive, non-transferable, revocable license to use Ballo for entertainment on devices you own or control. You may not copy, modify, reverse engineer, cheat, automate, scrape leaderboards, or exploit the service except as allowed by law.</p>
+        <h4>## 4. Player profile & fair play</h4>
+        <p>Display names must follow in-app rules (length and allowed characters) and must not be offensive, impersonating, or infringing. Names are unique across players. We may reject, rename, or remove names and scores that violate these Terms, disrupt rankings, or appear fraudulent. Leaderboard placement is not guaranteed and may be corrected after review.</p>
+        <h4>## 5. Ads, rewards & virtual benefits</h4>
+        <p>The app is supported by advertising. Rewarded videos may grant limited in-run benefits (such as extra balls). Those benefits have no real-world cash value, are not transferable, and may be capped per level or session. Ad availability is not guaranteed.</p>
+        <h4>## 6. Progress & data</h4>
+        <p>Unlock progress and many personal bests are stored on your device. Loss of a device, reinstall, or cleared data may erase local progress. Public Top 5 scores and profile fields stored on our servers may persist independently of your local save.</p>
+        <h4>## 7. Disclaimers</h4>
+        <p>Ballo is provided “as is” and “as available.” To the fullest extent permitted by law, we disclaim warranties of merchantability, fitness for a particular purpose, and non-infringement. We do not warrant uninterrupted or error-free play, or that leaderboards will always be accurate.</p>
+        <h4>## 8. Limitation of liability</h4>
+        <p>To the fullest extent permitted by law, ATB Tech is not liable for indirect, incidental, special, consequential, or punitive damages, or any loss of data, scores, or progress arising from your use of Ballo.</p>
+        <h4>## 9. Changes & termination</h4>
+        <p>We may update these Terms, change features, or suspend the service. Continued use after changes constitutes acceptance where allowed. We may suspend access for conduct that harms other players or the service.</p>
+        <p>For questions about these Terms: ntanh777@gmail.com</p>
       `
     },
     /*{
