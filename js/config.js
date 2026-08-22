@@ -466,7 +466,7 @@ const APP_CONFIG = {
       ],
       playStoreUrl: "#",
       appStoreUrl: "#",
-      screenshots: ["assets/ballo/ballo1.png", "assets/ballo/ballo2.png", "assets/ballo/ballo3.png"],
+      screenshots: ["assets/ballo/ballo1.jpg", "assets/ballo/ballo2.jpg", "assets/ballo/ballo3.jpg", "assets/ballo/ballo4.jpg", "assets/ballo/ballo5.jpg"],
       privacyPolicy: `
         <h3>Privacy Policy</h3>
         <p>**Last updated:** August 21, 2026</p>
