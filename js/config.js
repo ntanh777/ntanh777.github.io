@@ -548,7 +548,7 @@ const APP_CONFIG = {
       ],
       playStoreUrl: "#",
       appStoreUrl: "#",
-      screenshots: ["assets/ticko/ticko1.png", "assets/ticko/ticko2.png", "assets/ticko/ticko3.png"],
+      screenshots: ["assets/ticko/ticko1.png", "assets/ticko/ticko2.png", "assets/ticko/ticko3.png", "assets/ticko/ticko4.png", "assets/ticko/ticko5.png", "assets/ticko/ticko6.png"],
       privacyPolicy: `
         <p>Check it out on the App/Game</p>
       `,
