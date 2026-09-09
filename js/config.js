@@ -555,13 +555,33 @@ const APP_CONFIG = {
         <p>Developer: ATB Tech team</p>
         <p>Contact: ntanh777@gmail.com</p>
         <h4>1. Introduction</h4>
-        <h4>Welcome to **Ticko** ("we", "our", or "us"). Ticko is a personal event countdown application that helps you track important dates, share progress with friends and groups, and stay motivated through widgets and notifications. This Privacy Policy explains how we collect, use, store, and protect your information when you use the Ticko mobile application on iOS and Android. By creating an account or using Ticko, you agree to the practices described in this policy.</h4>
-        <p></p>
-        <h4></h4>
-        <p></p>
-        <h4></h4>
-        <p></p>
-        <h4></h4>
+        <p>Welcome to **Ticko** ("we", "our", or "us"). Ticko is a personal event countdown application that helps you track important dates, share progress with friends and groups, and stay motivated through widgets and notifications. This Privacy Policy explains how we collect, use, store, and protect your information when you use the Ticko mobile application on iOS and Android. By creating an account or using Ticko, you agree to the practices described in this policy.</p>
+        <h4>2. Information We Collect</h4>
+        <h4>2.1 Information You Provide</h4>
+        <p>- **Account data:** email address, display name, user ID, profile photo, and authentication credentials.</p>
+        <p>- **Event data:** event names, descriptions, dates, categories, colors, progress settings, and pinned/lock-screen preferences.</p>
+        <p>- **Social data:** friends, friend requests, group memberships, shared events, and contacts you choose to link.</p>
+        <p>- **Feedback:** messages you send through in-app support or feedback forms.</p>
+        <p>- **Premium purchases:** subscription status and transaction identifiers (actual payment processing is handled by Apple App Store or Google Play).</p>
+        <h4>2.2 Information Collected Automatically</h4>
+        <p>- **Device information:** device model, operating system version, app version, and language settings.</p>
+        <p>- **Usage data:** feature interactions, crash reports, and performance metrics via Firebase Analytics and Firebase Crashlytics.</p>
+        <p>- **Advertising data:** ad identifiers and consent status when you interact with ads (Google AdMob, subject to your consent preferences via UMP/GDPR).</p>
+        <p>- **Sync metadata:** timestamps used to synchronize your data efficiently between your device and our cloud servers.</p>
+        <h4>2.3 Information from Third-Party Sign-In</h4>
+        <p>If you sign in with **Google** or **Apple**, we receive basic profile information (such as name and email) as permitted by those providers. Apple may only share your name and email on the first sign-in.</p>
+        <h4>2.4 Tools & Device Permissions</h4>
+        <p>When you use optional features, we may request access to:/p>
+        <p>- **Camera / Photo Library** — QR scanning, profile photos, document scanning.</p>
+        <p>- **Contacts** — to help you find and connect with friends (only with your permission).</p>
+        <p>- **Notifications** — event reminders and app updates.</p>
+        <p>- **Biometrics / Secure Storage** — app lock and PIN protection (stored locally on your device).</p>
+        <p>We do not access these features without your explicit permission.</p>
+        <h4>3. How We Use Your Information</h4>
+        <p>We use your information to:</p>
+        <p>- Provide, maintain, and improve Ticko’s core features.</p>
+        <p>- Synchronize your events, friends, and groups across devices.</p>
+        <p>- Send event reminders and important service notifications.</p>
         <p></p>
       `,
       termsOfService: `
