@@ -582,7 +582,43 @@ const APP_CONFIG = {
         <p>- Provide, maintain, and improve Ticko’s core features.</p>
         <p>- Synchronize your events, friends, and groups across devices.</p>
         <p>- Send event reminders and important service notifications.</p>
-        <p></p>
+        <p>- Display home screen widgets and lock screen / Live Activity updates.</p>
+        <p>- Process premium subscriptions and verify purchases through secure server-side validation.</p>
+        <p>- Show advertisements to free users (where applicable and with your consent).</p>
+        <p>- Detect, prevent, and address technical issues, abuse, or security incidents.</p>
+        <p>- Comply with legal obligations.</p>
+        <h4>4. Data Storage & Security</h4>
+        <p>- Your data is stored on **Google Firebase** (Firestore, Authentication, Storage, Cloud Functions) with industry-standard encryption in transit (TLS/HTTPS).</p>
+        <p>- Sensitive credentials such as PINs are stored using **Flutter Secure Storage** on your device.</p>
+        <p>- Local event cache is stored in **SQLite** on your device for offline access.</p>
+        <p>- We implement Firebase Security Rules so users can only access their own data or data explicitly shared with them.</p>
+        <p>- No method of transmission or storage is 100% secure; we strive to protect your data using reasonable safeguards.</p>
+        <h4>5. Data Sharing</h4>
+        <p>We **do not sell** your personal information. We may share data only in these cases:</p>
+        <p>- **Service providers:** Firebase/Google Cloud, Apple, Google Sign-In, AdMob — solely to operate the app.</p>
+        <p>- **Other users:** information you explicitly share (events, groups, friend connections).</p>
+        <p>- **Legal requirements:** when required by law or to protect our rights and users’ safety.</p>
+        <h4>6. Advertising & Analytics</h4>
+        <p>Free users may see banner, native, interstitial, or rewarded ads served by **Google AdMob**. We use the **Google UMP SDK** to collect and respect your advertising consent preferences (especially in the EU/EEA).</p>
+        <p>We use **Firebase Analytics** and **Crashlytics** to understand app usage and improve stability. You can limit ad tracking through your device settings.</p>
+        <h4>7. Your Rights & Choices</h4>
+        <p>Depending on your location, you may have the right to:</p>
+        <p>- Access, update, or delete your personal data.</p>
+        <p>- Export your event data (via in-app features where available).</p>
+        <p>- Withdraw consent for optional features (contacts, notifications, ads).</p>
+        <p>- **Delete your account** at any time from Settings — this permanently removes your events, friends, groups, and profile from our servers.</p>
+        <p>To exercise your rights, contact us at **ntanh777@gmail.com**.</p>
+        <h4>8. Data Retention</h4>
+        <p>We retain your data while your account is active. When you delete your account, we delete associated cloud data within a reasonable period, except where retention is required by law or for legitimate security purposes. Local cache on your device can be cleared from **Settings → Clear Cache**.</p>
+        <h4>9. Children’s Privacy</h4>
+        <p>Ticko is not directed at children under 13 (or the applicable age in your country). We do not knowingly collect personal information from children. If you believe a child has provided us data, please contact us and we will delete it promptly.</p>
+        <h4>10. International Transfers</h4>
+        <p>Your data may be processed on servers located outside your country. By using Ticko, you consent to such transfers subject to applicable data protection laws.</p>
+        <h4>11. Changes to This Policy</h4>
+        <p>We may update this Privacy Policy from time to time. We will notify you of material changes through the app or by updating the "Last updated" date. Continued use after changes constitutes acceptance.</p>
+        <h4>12. Contact Us</h4>
+        <p>If you have questions about this Privacy Policy, contact:</p>
+        <p>**ATB Tech**  Email: ntanh777@gmail.com</p>
       `,
       termsOfService: `
         <p>Check it out on the App/Game</p>
