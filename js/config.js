@@ -550,7 +550,19 @@ const APP_CONFIG = {
       appStoreUrl: "#",
       screenshots: ["assets/ticko/ticko1.png", "assets/ticko/ticko2.png", "assets/ticko/ticko3.png", "assets/ticko/ticko4.png", "assets/ticko/ticko5.png", "assets/ticko/ticko6.png"],
       privacyPolicy: `
-        <p>Check it out on the App/Game</p>
+        <h3>Privacy Policy</h3>
+        <p>Last updated: September 9, 2026</p>
+        <p>Developer: ATB Tech team</p>
+        <p>Contact: ntanh777@gmail.com</p>
+        <h4>1. Introduction</h4>
+        <h4>Welcome to **Ticko** ("we", "our", or "us"). Ticko is a personal event countdown application that helps you track important dates, share progress with friends and groups, and stay motivated through widgets and notifications. This Privacy Policy explains how we collect, use, store, and protect your information when you use the Ticko mobile application on iOS and Android. By creating an account or using Ticko, you agree to the practices described in this policy.</h4>
+        <p></p>
+        <h4></h4>
+        <p></p>
+        <h4></h4>
+        <p></p>
+        <h4></h4>
+        <p></p>
       `,
       termsOfService: `
         <p>Check it out on the App/Game</p>
