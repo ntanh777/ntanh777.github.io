@@ -621,7 +621,78 @@ const APP_CONFIG = {
         <p>**ATB Tech**  Email: ntanh777@gmail.com</p>
       `,
       termsOfService: `
-        <p>Check it out on the App/Game</p>
+        <h3>Terms of Service</h3>
+        <p>**Last updated:** September 6, 2025</p>
+        <p>**Developer:** ATB Tech team</p>
+        <p>**Contact:** ntanh777@gmail.com</p>
+        <h4>1. Acceptance of Terms</h4>
+        <p>By downloading, installing, or using **Ticko** ("the App", "Service"), you agree to be bound by these Terms of Service ("Terms") and our Privacy Policy. If you do not agree, do not use the App.</p>
+        <p>You must be at least 13 years old (or the minimum age required in your jurisdiction) to use Ticko.</p>
+        <h4>2. Description of Service</h4>
+        <p>Ticko is a personal event countdown application offered by **ATB Tech** that allows you to:</p>
+        <p>- Create and manage countdown events with progress tracking.</p>
+        <p>- Pin events to your home screen widget, lock screen, or Live Activity (iOS).</p>
+        <p>- Share events with friends and groups.</p>
+        <p>- Receive event reminders and notifications.</p>
+        <p>- Access optional tools such as QR scanning, document scanning, and OCR.</p>
+        <p>- Upgrade to Premium for extended features and ad-free experience (where available).</p>
+        <p>We may modify, suspend, or discontinue any feature at any time with reasonable notice when possible.</p>
+        <h4>3. Account Registration</h4>
+        <p>- You may register using email, Google Sign-In, Apple Sign-In, or continue as a guest (anonymous account).</p>
+        <p>- You are responsible for maintaining the confidentiality of your account credentials.</p>
+        <p>- You must provide accurate information and keep your profile up to date.</p>
+        <p>- You may not impersonate others or use offensive or misleading user IDs.</p>
+        <p>- Guest accounts have limited features and data may not be recoverable if the device is lost without linking to a permanent account.</p>
+        <h4>4. User Content</h4>
+        <p>You retain ownership of content you create (events, group names, messages). By using Ticko, you grant us a limited license to store, display, and sync your content solely to provide the Service.</p>
+        <p>You agree **not** to upload or share content that:</p>
+        <p>- Is illegal, harmful, threatening, abusive, or discriminatory.</p>
+        <p>- Infringes intellectual property or privacy rights of others.</p>
+        <p>- Contains malware or attempts to disrupt the Service.</p>
+        <p>We may remove content or suspend accounts that violate these Terms.</p>
+        <h4>5. Friends, Groups & Sharing</h4>
+        <p>- You are responsible for invitations you send and groups you create.</p>
+        <p>- Shared events are visible to all members of the group or accepted friends.</p>
+        <p>- Group administrators may have additional permissions as described in the App.</p>
+        <h4>6. Premium & In-App Purchases</h4>
+        <p>- Premium subscriptions and purchases are processed through **Apple App Store** or **Google Play**.</p>
+        <p>- Prices, billing cycles, and features are displayed at the time of purchase.</p>
+        <p>- Subscriptions renew automatically unless cancelled at least 24 hours before the renewal date through your store account settings.</p>
+        <p>- Refunds are handled according to Apple or Google policies; contact the respective store for refund requests.</p>
+        <p>- Purchase verification is performed server-side; we do not grant Premium based on client-side claims alone.</p>
+        <p>- Free users may earn temporary Premium access by watching rewarded ads, subject to availability and limits defined in the App.</p>
+        <h4>7. Advertising</h4>
+        <p>Free users may see advertisements served by third parties (e.g., Google AdMob). Ad frequency and placement may change. Premium users may receive an ad-reduced or ad-free experience as described in the App.</p>
+        <p>You agree not to use ad-blocking methods that interfere with the Service’s operation.</p>
+        <h4>8. Acceptable Use</h4>
+        <p>You agree not to:</p>
+        <p>- Reverse engineer, decompile, or attempt to extract source code from the App.</p>
+        <p>- Use automated scripts, bots, or scrapers to access the Service.</p>
+        <p>- Circumvent security, authentication, or usage limits (including event or group limits).</p>
+        <p>- Abuse friend requests, group invitations, or reporting features.</p>
+        <p>- Use the Service for any unlawful purpose.</p>
+        <p>Violation may result in immediate account suspension or termination.</p>
+        <h4>9. Intellectual Property</h4>
+        <p>Ticko, its logo, design, and underlying software are owned by **ATB Tech** and protected by copyright and other intellectual property laws. These Terms do not grant you any rights to our trademarks or brand assets.</p>
+        <h4>10. Third-Party Services</h4>
+        <p>The App integrates with third-party services including Firebase, Google, Apple, and AdMob. Your use of those services is also subject to their respective terms and policies. We are not responsible for third-party services outside our control.</p>
+        <p>11. Disclaimers</p>
+        <p>THE APP IS PROVIDED **"AS IS"** AND **"AS AVAILABLE"** WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.</p>
+        <p>We do not guarantee uninterrupted, error-free, or perfectly synchronized service. Countdown calculations depend on your device clock and network connectivity.</p>
+        <h4>12. Limitation of Liability</h4>
+        <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, ATB TECH SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF DATA, PROFITS, OR GOODWILL ARISING FROM YOUR USE OF THE APP.</p>
+        <p>Our total liability shall not exceed the amount you paid us in the twelve (12) months preceding the claim, or USD $10 if you have not made any purchase.</p>
+        <h4>13. Account Termination & Deletion</h4>
+        <p>- You may delete your account at any time from **Settings**. Deletion is permanent and removes your cloud data.</p>
+        <p>- We may suspend or terminate your account if you violate these Terms or engage in harmful behavior.</p>
+        <p>- Upon termination, your right to use the App ceases immediately.</p>
+        <h4>14. Governing Law</h4>
+        <p>These Terms are governed by applicable laws in the jurisdiction where ATB Tech operates, without regard to conflict-of-law principles. Mandatory consumer protection laws in your country may still apply.</p>
+        <h4>15. Changes to Terms</h4>
+        <p>We may update these Terms from time to time. Material changes will be communicated through the App. Your continued use after the effective date constitutes acceptance of the updated Terms.</p>
+        <h4>16. Contact Us</h4>
+        <p>For questions about these Terms, contact:</p>
+        <p>**ATB Tech** Email: ntanh777@gmail.com</p>
       `
     }
     /*{
