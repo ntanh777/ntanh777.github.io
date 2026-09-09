@@ -519,6 +519,43 @@ const APP_CONFIG = {
         <p>For questions about these Terms: ntanh777@gmail.com</p>
       `
     },
+    {
+      id: "ticko",
+      name: "Ticko: Events & Follow-ups",
+      type: "app",
+      logoUrl: "assets/icon 1024 - ticko.png",
+      logoSvg: `<svg viewBox="0 0 100 100" class="w-full h-full">
+        <rect width="100" height="100" rx="22" fill="url(#galaxyGrad)"/>
+        <defs>
+          <linearGradient id="galaxyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#06b6d4" />
+            <stop offset="100%" stop-color="#0891b2" />
+          </linearGradient>
+        </defs>
+        <!-- Biểu tượng phi thuyền không gian đang bay vút lên -->
+        <path d="M50 20 L65 55 L55 50 L50 75 L45 50 L35 55 Z" fill="#ffffff"/>
+        <circle cx="50" cy="78" r="4" fill="#ef4444"/>
+      </svg>`,
+      shortDescription: "Tikco - Manage events, reminders and follow-ups with people and groups.",
+      description: "Tikco is more than just a regular countdown app; it's a tool that visualizes your life's progress. Every important event, from birthdays and anniversaries to work deadlines, travel plans, and health goals, is vividly displayed through stunning gradient progress bars that move smoothly right on your device screen.",
+      features: [
+        "👨‍👩‍👧 Create Groups",
+        "📅 Events that are more than a date",
+        "🔔 Never forget the next step",
+        "⚡ Quick and simple",
+        "🧩 Customize your Event Cards",
+        "🛠 Tools: Scan, OCR, Read QR code",
+      ],
+      playStoreUrl: "#",
+      appStoreUrl: "#",
+      screenshots: ["assets/ticko/ticko1.png", "assets/ticko/ticko2.png", "assets/ticko/ticko3.png"],
+      privacyPolicy: `
+        <p>Check it out on the App/Game</p>
+      `,
+      termsOfService: `
+        <p>Check it out on the App/Game</p>
+      `
+    }
     /*{
       id: "petto",
       name: "Petto - Pet Social Network - Care with love, share with joy",
