@@ -365,7 +365,7 @@ const APP_CONFIG = {
         "💎 Premium Membership Package (Rebox Premium): Perfect experience, completely ad-free, daily featured posts, unlimited posting. Premium badges, free user support."
       ],
       playStoreUrl: "https://play.google.com/store/apps/details?id=com.atbtech.rebox",
-      appStoreUrl: "#",
+      appStoreUrl: "https://apps.apple.com/vn/app/rebox-trade-used-items/id6791478146?l=vi",
       screenshots: ["assets/rebox/rebox1.png", "assets/rebox/rebox2.png", "assets/rebox/rebox3.png"],
       privacyPolicy: `
         <h3>Privacy Policy</h3>
@@ -464,8 +464,8 @@ const APP_CONFIG = {
         "Play your way",
         "Free to play"
       ],
-      playStoreUrl: "#",
-      appStoreUrl: "#",
+      playStoreUrl: "https://play.google.com/store/apps/details?id=com.atbtech.ballo&pli=1",
+      appStoreUrl: "https://apps.apple.com/vn/app/ballo-block-breaker/id6803989093?l=vi",
       screenshots: ["assets/ballo/ballo1.jpg", "assets/ballo/ballo2.jpg", "assets/ballo/ballo3.jpg", "assets/ballo/ballo4.jpg", "assets/ballo/ballo5.jpg"],
       privacyPolicy: `
         <h3>Privacy Policy</h3>
