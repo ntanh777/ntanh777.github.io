@@ -546,8 +546,8 @@ const APP_CONFIG = {
         "🧩 Customize your Event Cards",
         "🛠 Tools: Scan, OCR, Read QR code",
       ],
-      playStoreUrl: "#",
-      appStoreUrl: "#",
+      playStoreUrl: "https://play.google.com/store/apps/details?id=com.atbtech.ticko",
+      appStoreUrl: "https://apps.apple.com/vn/app/ticko-events-follow-ups/id6808568046?l=vi",
       screenshots: ["assets/ticko/ticko1.png", "assets/ticko/ticko2.png", "assets/ticko/ticko3.png", "assets/ticko/ticko4.png", "assets/ticko/ticko5.png", "assets/ticko/ticko6.png"],
       privacyPolicy: `
         <h3>Privacy Policy</h3>
