@@ -695,11 +695,11 @@ const APP_CONFIG = {
         <p>**ATB Tech** Email: ntanh777@gmail.com</p>
       `
     }
-    /*{
-      id: "petto",
-      name: "Petto - Pet Social Network - Care with love, share with joy",
-      type: "app",
-      logoUrl: "assets/icon 1024 - petto.png",
+    {
+      id: "Tiltro",
+      name: "Tiltro - Ball Physics Puzzle.",
+      type: "game",
+      logoUrl: "assets/icon 1024 - Tiltro.png",
       logoSvg: `<svg viewBox="0 0 100 100" class="w-full h-full">
         <rect width="100" height="100" rx="22" fill="url(#wordGrad)"/>
         <defs>
@@ -712,22 +712,51 @@ const APP_CONFIG = {
         <rect x="25" y="25" width="50" height="50" rx="10" fill="#ffffff"/>
         <text x="50" y="62" font-family="system-ui, sans-serif" font-weight="900" font-size="42" fill="#ca8a04" text-anchor="middle">W</text>
       </svg>`,
-      shortDescription: "Petto: Comprehensive pet health management, vaccinations, and community connection for pet lovers.",
-      description: "Petto is an all-in-one app that helps you comprehensively manage your pet's health information, while also connecting you with a community of animal lovers. Whether you own a dog, cat, bird, fish, hamster, or rabbit, Petto provides smart tools to care for your pets in the most scientific and easy way.",
+      shortDescription: "Tilt, roll & master gravity! 100 cyber maze puzzles with dynamic ball physics.",
+      description: "WELCOME TO TILTRO — THE ULTIMATE MOTION-CONTROL MAZE CHALLENGE! Step into a futuristic cyber-arcade universe where precision, reflexes, and pure physics collide. Tiltro transforms your smartphone into a high-tech labyrinth controller. Tilt your phone, master inertia, avoid deadly gravity vortexes, and race against the clock to conquer 100 mind-bending puzzle stages!",
       features: [
-        "Check it out on the App/Game",
+        "⚡ PURE GYROSCOPE & ACCELEROMETER PHYSICS",
+        "🌌 100 CRAFTED SECTORS ACROSS 4 DIFFICULTY TIERS",
+        "🏆 RACE TO THE TOP — GLOBAL LEADERBOARDS",
+        "🎨 CUSTOMIZE YOUR SPHERE IN THE CYBER GARAGE",
+        "🛡️ FAIR PLAY & PRIVACY FIRST",
       ],
       playStoreUrl: "#",
       appStoreUrl: "#",
-      screenshots: ["assets/petto/petto1.png", "assets/petto/petto2.png", "assets/petto/petto3.png"],
+      screenshots: ["assets/tiltro/tiltro.png", "assets/tiltro/tiltro1.png", "assets/tiltro/tiltro2.png", "assets/tiltro/tiltro3.png", "assets/tiltro/tiltro4.png"],
       privacyPolicy: `
-        <p>Check it out on the App/Game</p>
+        <h3>Privacy Policy</h3>
+        <p>Last updated: October 15, 2026</p>
+        <p>Developer: ATB Tech team</p>
+        <p>Contact: ntanh777@gmail.com</p>
+        <p>Welcome to **Tiltro - Ball Physics Puzzle** ("Tiltro", "we", "us", or "our"), developed by **ATB Tech**. We respect your privacy and are committed to protecting the personal data of our players.</p>
+        <p>This Privacy Policy explains how we collect, use, process, and safeguard information when you use our mobile application across Android and iOS platforms.</p>
+        <h4>1. Information We Collect</h4>
+        <p>We only collect data necessary to provide seamless motion-based puzzle gameplay, cloud cross-device synchronization, global leaderboards, and non-intrusive ads.</p>
+        <h4>##### A. Information Processed Locally on Your Device (Not Transmitted)</h4>
+        <p>Device Motion & Inertial Sensor Data (Accelerometer & Gyroscope): Tiltro utilizes your device's built-in accelerometer and gyroscope sensors via standard platform APIs to control ball physics, gravity vector simulation, and velocity within the 2D maze.</p>
+        <p>CRITICAL PRIVACY PROMISE: Motion sensor data is sampled and processed **purely in real-time within volatile device memory (RAM)**. We **never** record, store, log, analyze, or transmit your raw sensor data, body movements, or spatial environment to any remote server or third party. Sensor data is entirely ephemeral and ceases immediately when the game pauses or closes.</p>
+        <h4>##### B. Information You Provide to Us</h4>
+        <p>Account Credentials (Optional): You can play Tiltro as an anonymous Guest without creating an account. If you choose to sync progress or compete on the global leaderboard, you may sign in using:</p>
+        <p>Email and Password: We collect your email address.</p>
+        <p>Google Sign-In: We receive your Google account ID, public display name, email address, and profile picture URL.</p>
+        <p>Sign in with Apple: We receive your unique Apple user identifier, and optionally your name and email (if shared via Apple relay).</p>
+        <p>Pilot Codename (Display Name): A custom alias (2 to 24 characters) chosen by you to represent your scores on public leaderboards.</p>
+        <h4>##### C. Automatically Collected Technical & Gameplay Data</h4>
+        <p>Game Progress & Telemetry: Level completion times, sector unlocks, medals earned (Gold, Silver, Bronze), star counts, collision counts, and cosmetic skin selections.</p>
+        <p>Diagnostics & Device Metrics (Firebase Analytics & Crashlytics): Anonymous device model, operating system version, app version, session duration, and gameplay milestone events (`level_complete`, `level_fail`, `level_abandon`).</p>
+        <p>Cloud Infrastructure (Google Cloud / Firebase): Data is processed using Firebase Authentication, Cloud Firestore, Cloud Functions, and Firebase Remote Config.</p>
+        <p>Advertising Identifiers (Google AdMob): Anonymous identifiers (such as Google Advertising ID / IDFA), IP address, and ad interaction telemetry used by Google AdMob to serve contextual or personalized advertisements in compliance with privacy regulations.</p>
+        <h4>2. How We Use Your Information</h4>
+        <p></p>
+        <h4></h4>
+        <p></p>
       `,
       termsOfService: `
         <p>Check it out on the App/Game</p>
       `
     },
-    {
+    /*{
       id: "droppo",
       name: "Droppo - Connect 4 Puzzle - Drop the win, connect the fun",
       type: "game",
