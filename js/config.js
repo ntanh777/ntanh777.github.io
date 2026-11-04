@@ -696,7 +696,7 @@ const APP_CONFIG = {
       `
     }
     {
-      id: "Tiltro",
+      id: "tiltro",
       name: "Tiltro - Ball Physics Puzzle.",
       type: "game",
       logoUrl: "assets/icon 1024 - Tiltro.png",
@@ -748,8 +748,31 @@ const APP_CONFIG = {
         <p>Cloud Infrastructure (Google Cloud / Firebase): Data is processed using Firebase Authentication, Cloud Firestore, Cloud Functions, and Firebase Remote Config.</p>
         <p>Advertising Identifiers (Google AdMob): Anonymous identifiers (such as Google Advertising ID / IDFA), IP address, and ad interaction telemetry used by Google AdMob to serve contextual or personalized advertisements in compliance with privacy regulations.</p>
         <h4>2. How We Use Your Information</h4>
+        <p>We use your information strictly for the following purposes:</p>
+        <p>1. Core Gameplay & Physics Simulation: Enabling responsive ball tilt controls locally.</p>
+        <p>2. Leaderboards & Anti-Cheat Validation: Validating completion times through serverless Cloud Functions and maintaining the "Race to the Top" global leaderboards.</p>
+        <p>3. Cross-Device Progress Sync: Ensuring your unlocked levels and cosmetics persist across device reinstalls.</p>
+        <p>4. App Quality & Balancing: Monitoring drop-off rates and difficulty curves to fine-tune game levels via Remote Config.</p>
+        <p>5. Advertising & Monetization: Serving banner, native, interstitial, and optional rewarded video advertisements via Google Mobile Ads.</p>
+        <h4>3. Third-Party Services & SDK Disclosures</h4>
+        <p>Tiltro integrates industry-standard third-party SDKs that adhere to strict data privacy standards:</p>
         <p></p>
-        <h4></h4>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
         <p></p>
       `,
       termsOfService: `
