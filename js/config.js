@@ -744,7 +744,7 @@ const APP_CONFIG = {
         <p>Pilot Codename (Display Name): A custom alias (2 to 24 characters) chosen by you to represent your scores on public leaderboards.</p>
         <h4>##### C. Automatically Collected Technical & Gameplay Data</h4>
         <p>Game Progress & Telemetry: Level completion times, sector unlocks, medals earned (Gold, Silver, Bronze), star counts, collision counts, and cosmetic skin selections.</p>
-        <p>Diagnostics & Device Metrics (Firebase Analytics & Crashlytics): Anonymous device model, operating system version, app version, session duration, and gameplay milestone events (`level_complete`, `level_fail`, `level_abandon`).</p>
+        <p>Diagnostics & Device Metrics (Firebase Analytics & Crashlytics): Anonymous device model, operating system version, app version, session duration, and gameplay milestone events (level_complete, level_fail, level_abandon).</p>
         <p>Cloud Infrastructure (Google Cloud / Firebase): Data is processed using Firebase Authentication, Cloud Firestore, Cloud Functions, and Firebase Remote Config.</p>
         <p>Advertising Identifiers (Google AdMob): Anonymous identifiers (such as Google Advertising ID / IDFA), IP address, and ad interaction telemetry used by Google AdMob to serve contextual or personalized advertisements in compliance with privacy regulations.</p>
         <h4>2. How We Use Your Information</h4>
