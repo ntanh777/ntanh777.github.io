@@ -694,7 +694,7 @@ const APP_CONFIG = {
         <p>For questions about these Terms, contact:</p>
         <p>**ATB Tech** Email: ntanh777@gmail.com</p>
       `
-    }
+    },
     {
       id: "tiltro",
       name: "Tiltro - Ball Physics Puzzle.",
