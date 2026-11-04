@@ -778,7 +778,7 @@ const APP_CONFIG = {
       termsOfService: `
         <p>Check it out on the App/Game</p>
       `
-    },
+    }
     /*{
       id: "droppo",
       name: "Droppo - Connect 4 Puzzle - Drop the win, connect the fun",
