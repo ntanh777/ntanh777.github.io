@@ -779,7 +779,7 @@ const APP_CONFIG = {
         <p>3. Re-authenticate via your original provider (re-enter password or tap Verify with Google/Apple) and type the confirmation word "DELETE".</p>
         <p>4. Tap >>Confirm Delete<<.</p>
         <p>Web-Based Deletion Request:</p>
-        <p>If you have uninstalled the app and wish to purge your records, email our Data Protection Officer at: **ntanh777@gmail.com** with the subject `Data Deletion Request` and include your registered email. Your request will be fulfilled within 7 business days.</p>
+        <p>If you have uninstalled the app and wish to purge your records, email our Data Protection Officer at: **ntanh777@gmail.com** with the subject "Data Deletion Request" and include your registered email. Your request will be fulfilled within 7 business days.</p>
         <h4>6. Children's Privacy (COPPA & GDPR-K Compliance)</h4>
         <p>Tiltro is a general-audience casual physics game and is **not directed to children under the age of 13** (or under 16 in the European Union). We do not knowingly collect personal identifiable information from children. If we discover that a child under the required age has registered without verifiable parental consent, we will immediately delete that information from our servers.</p>
         <h4>7. Data Security</h4>
