@@ -756,24 +756,40 @@ const APP_CONFIG = {
         <p>5. Advertising & Monetization: Serving banner, native, interstitial, and optional rewarded video advertisements via Google Mobile Ads.</p>
         <h4>3. Third-Party Services & SDK Disclosures</h4>
         <p>Tiltro integrates industry-standard third-party SDKs that adhere to strict data privacy standards:</p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+        <p>Google Firebase (Google LLC):</p>
+        <p>+ Firebase Authentication (Account management)</p>
+        <p>+ Cloud Firestore & Cloud Functions (Encrypted cloud database & anti-cheat calculation)</p>
+        <p>+ Firebase Remote Config & Firebase Analytics (Performance metrics and dynamic level tuning)</p>
+        <p>+ [Google Privacy Policy](https://policies.google.com/privacy)</p>
+        <p>Google Mobile Ads / AdMob (Google LLC):</p>
+        <p>+ Serves advertisements. In the European Economic Area (EEA), UK, and California, we utilize the Google User Messaging Platform (UMP SDK) to obtain consent before displaying targeted advertisements.</p>
+        <p>+ [AdMob Privacy Policies](https://support.google.com/admob/answer/6128543)</p>
+        <p>Apple Sign-In (Apple Inc.):</p>
+        <p>+ Secure, privacy-preserving authentication on iOS devices.</p>
+        <p>+ [Apple Privacy Policy](https://www.apple.com/legal/privacy/)</p>
+        <h4>4. Data Retention & Automatic Cleanup Policy</h4>
+        <p>Account & Progress Data: Maintained as long as your account remains active.</p>
+        <p>Level Run Telemetry: Temporary diagnostic play attempts stored in cloud databases are assigned an expiration timestamp (TTL) and automatically scrubbed after 30 days.</p>
+        <p>Local Cache Eviction: Local leaderboard records cached in Hive use a Least Recently Used (LRU) policy, caching up to 80 records and expiring data older than 7 days.</p>
+        <h4>5. User Rights & Account / Data Deletion (Apple Guideline 5.1.1(v) & GDPR Art. 17)</h4>
+        <p>In-App Immediate Deletion:</p>
+        <p>You can completely and permanently delete your account directly inside the game:</p>
+        <p>1. Open Tiltro and navigate to **PROFILE / ACCOUNT** (from the Home screen top bar).</p>
+        <p>2. Scroll to the bottom and tap **DELETE ACCOUNT ARCHIVE**.</p>
+        <p>3. Re-authenticate via your original provider (re-enter password or tap Verify with Google/Apple) and type the confirmation word `DELETE`.</p>
+        <p>4. Tap **Confirm Delete**.</p>
+        <p>Web-Based Deletion Request:</p>
+        <p>If you have uninstalled the app and wish to purge your records, email our Data Protection Officer at: **ntanh777@gmail.com** with the subject `Data Deletion Request` and include your registered email. Your request will be fulfilled within 7 business days.</p>
+        <h4>6. Children's Privacy (COPPA & GDPR-K Compliance)</h4>
+        <p>Tiltro is a general-audience casual physics game and is **not directed to children under the age of 13** (or under 16 in the European Union). We do not knowingly collect personal identifiable information from children. If we discover that a child under the required age has registered without verifiable parental consent, we will immediately delete that information from our servers.</p>
+        <h4>7. Data Security</h4>
+        <p>All communications between Tiltro and cloud endpoints are encrypted in transit using **Transport Layer Security (TLS 1.3 / HTTPS)**. Write operations to leaderboards and profiles are guarded by server-side Cloud Security Rules and Cloud Functions transactions, preventing unauthorized tampering.</p>
+        <h4>8. Contact Information</h4>
+        <p>If you have any questions, feedback, or concerns regarding this Privacy Policy or your data, please contact:</p>
+        <p>Company: ATB Tech Studio</p>
+        <p>App Name: Tiltro - Ball Physics Puzzle</p>
+        <p>Email: ntanh777@gmail.com</p>
+        <p>Address: Vietnam</p>
       `,
       termsOfService: `
         <p>Check it out on the App/Game</p>
