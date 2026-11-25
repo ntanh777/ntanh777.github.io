@@ -725,7 +725,7 @@ const APP_CONFIG = {
       appStoreUrl: "#",
       screenshots: ["assets/tiltro/tiltro.png", "assets/tiltro/tiltro1.png", "assets/tiltro/tiltro2.png", "assets/tiltro/tiltro3.png", "assets/tiltro/tiltro4.png"],
       privacyPolicy: `
-        <h3>Privacy Policy</h3>
+        <h3>PRIVACY POLICY</h3>
         <p>Last updated: October 15, 2026</p>
         <p>Developer: ATB Tech team</p>
         <p>Contact: ntanh777@gmail.com</p>
@@ -792,7 +792,35 @@ const APP_CONFIG = {
         <p>Address: Vietnam</p>
       `,
       termsOfService: `
-        <p>Check it out on the App/Game</p>
+        <h3>TERMS OF SERVICE</h3>
+        <p>Effective Date: October 15, 2026</p>
+        <h4>1. Acceptance of Terms</h4>
+        <p>By downloading, installing, or playing **Tiltro - Ball Physics Puzzle** ("the Game"), you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, please uninstall and discontinue using the Game immediately.</p>
+        <h4>2. License Grant & Restrictions</h4>
+        <p>License: ATB Tech grants you a personal, revocable, non-exclusive, non-transferable, limited license to play the Game for personal, non-commercial entertainment purposes.</p>
+        <p>Restrictions: You agree NOT to:</p>
+        <p>- Decompile, reverse engineer, disassemble, or extract source code from the Game.</p>
+        <p>- Intercept, tamper with, or forge network requests sent to our Cloud Functions or Firestore database.</p>
+        <p>- Utilize memory editors, automated bot scripts, emulators with artificial gravity spoofing, or unauthorized third-party mods to fabricate level run times or leaderboard records.</p>
+        <p>- Attempt to gain unauthorized access to other players' accounts or cloud telemetry.</p>
+        <h4>3. Fair Play & Anti-Cheat Policy</h4>
+        <p>Integrity of our global leaderboards is paramount.</p>
+        <p>- ll record completions submitted to the "Race to the Top" leaderboard are cryptographically verified by our serverless validation logic.</p>
+        <p>- We reserve the right, without prior notice, to disqualify records, strip medals, or ban accounts that are detected to have submitted mathematically impossible level completion times or tampered network payloads.</p>
+        <h4>4. Virtual Items & In-Game Cosmetics</h4>
+        <p>- Ball skins, stars, and medals earned through gameplay are virtual items.</p>
+        <p>- Virtual items possess no monetary value in the real world, cannot be redeemed for cash, and cannot be transferred or sold to third parties.</p>
+        <p>- We reserve the right to manage, adjust, or rebalance virtual cosmetic requirements and level parameters via Remote Config at any time.</p>
+        <h4>5. Advertisements & Third-Party Content</h4>
+        <p>Tiltro offers gameplay free of charge supported by advertising. Interacting with third-party ads (such as visiting external landing pages or installing advertised apps) is governed by the respective advertiser's terms and privacy policies. We do not endorse or assume liability for third-party products.</p>
+        <h4>6. Disclaimer of Warranties</h4>
+        <p>The Game is provided on an **"AS IS"** and **"AS AVAILABLE"** basis without warranties of any kind, whether express or implied, including but not limited to uninterrupted operation, sensor precision on defective hardware, or error-free physics simulation.</p>
+        <h4>7. Limitation of Liability</h4>
+        <p>To the maximum extent permitted by law, ATB Tech shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your access to, use of, or inability to play the Game.</p>
+        <h4>8. Governing Law</h4>
+        <p>These Terms shall be governed by and construed in accordance with the laws of Vietnam, without regard to conflict of law principles.</p>
+        <h4>9. Changes to Terms</h4>
+        <p>We reserve the right to revise these Terms at any time. Your continued use of Tiltro following updates constitutes your acceptance of the new Terms.</p>
       `
     }
     /*{
