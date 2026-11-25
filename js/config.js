@@ -776,8 +776,8 @@ const APP_CONFIG = {
         <p>You can completely and permanently delete your account directly inside the game:</p>
         <p>1. Open Tiltro and navigate to **PROFILE / ACCOUNT** (from the Home screen top bar).</p>
         <p>2. Scroll to the bottom and tap **DELETE ACCOUNT ARCHIVE**.</p>
-        <p>3. Re-authenticate via your original provider (re-enter password or tap Verify with Google/Apple) and type the confirmation word `DELETE`.</p>
-        <p>4. Tap **Confirm Delete**.</p>
+        <p>3. Re-authenticate via your original provider (re-enter password or tap Verify with Google/Apple) and type the confirmation word "DELETE".</p>
+        <p>4. Tap >>Confirm Delete<<.</p>
         <p>Web-Based Deletion Request:</p>
         <p>If you have uninstalled the app and wish to purge your records, email our Data Protection Officer at: **ntanh777@gmail.com** with the subject `Data Deletion Request` and include your registered email. Your request will be fulfilled within 7 business days.</p>
         <h4>6. Children's Privacy (COPPA & GDPR-K Compliance)</h4>
